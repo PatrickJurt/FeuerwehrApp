@@ -33,7 +33,7 @@ export function DistributionTool({ operations }: DistributionToolProps) {
         ))}
       </div>
       <p className="count">
-        <strong>{operations.length}</strong> Einsätze (Anteil in % je Balken)
+        <strong>{operations.length}</strong> Einsätze (Wert je Balken: Anzahl und Anteil in %)
       </p>
       {operations.length === 0 ? (
         <p className="empty">Keine Einsätze gefunden.</p>
