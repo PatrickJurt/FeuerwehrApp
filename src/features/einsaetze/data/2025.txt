@@ -1,4 +1,86 @@
-14.12.2025	08:42 Uhr; Brand (Kamin)
-02.08.2025	22:05 Uhr; Brand (Container)
-17.05.2025	13:10 Uhr; BMA-Alarm
-21.02.2025	03:33 Uhr; Hilfeleistung (Türöffnung)
+31.12.2025	15:20 Uhr; BMA-Alarm
+21.12.2025	22:16 Uhr; Verkehrsunfall (VU)
+13.12.2025	10:28 Uhr; BMA-Alarm
+09.12.2025	07:29 Uhr; Rechtshilfeersuchen (Umleitung VU)
+08.12.2025	18:45 Uhr; BMA-Alarm
+08.12.2025	09:07 Uhr; Wassereinbruch / Überschwemmung
+08.12.2025	04:07 Uhr; BMA-Alarm
+07.12.2025	21:38 Uhr; BMA-Alarm
+05.12.2025	11:16 Uhr; Herznotfall
+26.11.2025	05:06 Uhr; BMA-Alarm
+26.11.2025	03:21 Uhr; BMA-Alarm
+21.11.2025	08:22 Uhr; BMA-Alarm
+14.11.2025	10:22 Uhr; Berufsunfall / Nichtberufsunfall
+12.11.2025	06:37 Uhr; BMA-Alarm
+11.11.2025	23:18 Uhr; BMA-Alarm
+10.11.2025	20:05 Uhr; Wasserleitungsbruch
+23.10.2025	22:52 Uhr; BMA-Alarm
+22.10.2025	20:58 Uhr; BMA-Alarm
+17.10.2025	19:09 Uhr; Fahrzeugbrand A2
+12.10.2025	00:59 Uhr; BMA-Alarm
+09.10.2025	14:01 Uhr; BMA-Alarm
+06.10.2025	18:23 Uhr; Brand (Nachbarhilfe)
+05.10.2025	00:32 Uhr; BMA-Alarm
+27.09.2025	20:09 Uhr; Hilfeleistung
+24.09.2025	02:41 Uhr; Herznotfall (vermisste Person)
+21.09.2025	05:11 Uhr; BMA-Alarm
+19.09.2025	22:19 Uhr; BMA-Alarm
+17.09.2025	11:31 Uhr; Berufsunfall
+10.09.2025	08:43 Uhr; C-Ereignis (Oelspur)
+09.09.2025	22:44 Uhr; BMA-Alarm
+07.09.2025	08:13 Uhr; BMA-Alarm
+27.08.2025	01:47 Uhr; BMA-Alarm
+26.08.2025	23:47 Uhr; BMA-Alarm
+22.08.2025	19:23 Uhr; BMA-Alarm
+22.08.2025	18:56 Uhr; Hilfeleistung (gestürztes Pferd)
+20.08.2025	15:13 Uhr; BMA-Alarm
+19.08.2025	16:33 Uhr; BMA-Alarm
+18.08.2025	14:32 Uhr; Fahrzeugbrand A1
+11.08.2025	15:42 Uhr; Fahrzeugbrand A2
+05.08.2025	04:18 Uhr; Umgestürzter Baum
+04.08.2025	15:55 Uhr; BMA-Alarm
+26.07.2025	19:33 Uhr; Verkehrsunfall (C-Ereignis)
+22.07.2025	18:43 Uhr; Fahrzeugbrand A1
+03.07.2025	08:09 Uhr; Berufsunfall, umgekippter LKW (PbU)
+01.07.2025	15:04 Uhr; Brand (Rauchentwicklung El-Scooter)
+29.06.2025	10:20 Uhr; C-Ereignis (Oelspur)
+26.06.2025	02:26 Uhr; BMA-Alarm
+24.06.2025	13:57 Uhr; Brand (Waldbrand)
+15.06.2025	01:12 Uhr; Fahrzeugbrand A2
+11.06.2025	21:45 Uhr; Gebäudebrand
+08.06.2025	20:25 Uhr; Oelspur
+25.05.2025	16:24 Uhr; Herznotfall
+19.05.2025	06:43 Uhr; BMA-Alarm (Sprinkler)
+16.05.2025	06:41 Uhr; BMA-Alarm (Sprinkler)
+12.05.2025	12:37 Uhr; Technische Hilfeleistung
+10.05.2025	23:40 Uhr; Verkehrsunfall VU (Oelspur)
+01.05.2025	19:30 Uhr; C Ereignis (Benzin ausgelaufen)
+17.04.2025	03:05 Uhr; BMA-Alarm
+12.04.2025	10:20 Uhr; BMA-Alarm
+10.04.2025	18:29 Uhr; Falschalarm (Brand)
+08.04.2025	21:00 Uhr; BMA-Alarm
+07.04.2025	16:23 Uhr; Fahrzeugbrand A1
+30.03.2025	14:51 Uhr; BMA-Alarm
+29.03.2025	09:41 Uhr; BMA-Alarm
+26.03.2025	20:10 Uhr, BMA-Alarm
+22.03.2025	12:23 Uhr; Verkehrsunfall
+19.03.2025	09:11 Uhr; Verkehrsunfall A2
+27.02.2025	15:56 Uhr; BMA-Alarm
+27.02.2025	13:23 Uhr; Verkehrsunfall
+22.02.2025	16:32 Uhr; Hilfeleistung
+21.02.2025	06:48 Uhr; BMA-Alarm
+17.02.2025	09:24 Uhr; BMA-Alarm (Sprinkler)
+14.02.2025	02:40 Uhr; Ammoniakgasalarm 1000 ppm
+14.02.2025	00:19 Uhr; Ammoniakgasalarm 1000 ppm
+10.02.2025	09:17 Uhr; BMA-Alarm
+07.02.2025	09:08 Uhr; Brand Steckdose
+04.02.2025	18:30 Uhr; BMA-Alarm
+03.02.2025	15:47 Uhr; Brand in Lüftungsanlage
+26.01.2025	04:48 Uhr; Wasserleitungsbruch
+25.01.2025	17:44 Uhr; Fahrzeugbrand A1
+25.01.2025	16:01 Uhr; Fahrzeugbrand A2
+24.01.2025	05:10 Uhr; Fahrzeugbrand A1
+12.01.2025	06:31 Uhr; BMA-Alarm
+05.01.2025	11:15 Uhr; Windfall
+04.01.2025	18:58 Uhr; BMA-Alarm
+01.01.2025	00:08 Uhr; BMA-Alarm

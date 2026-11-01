@@ -1,0 +1,91 @@
+23.12.2023	11:14 Uhr; Fahrzeugbrand A1
+22.12.2023	06:25 Uhr; BMA-Alarm
+22.12.2023	06:11 Uhr; Windfall/gestürzte Bäume
+22.12.2023	01:55 Uhr; Windfall/gestürzte Bäume
+10.12.2023	17:51 Uhr; BMA-Alarm (Brand)
+07.12.2023	12:33 Uhr; Herznotfall
+06.12.2023	16:30 Uhr; Windfall/gestürzte Bäume
+28.11.2023	13:54 Uhr; BMA-Alarm
+21.11.2023	02:13 Uhr; BMA-Alarm
+20.11.2023	19:00 Uhr; Wasserrohrbruch
+18.11.2023	18:35 Uhr; Wassereinbruch
+16.11.2023	23:23 Uhr; Windfall/gestürzte Bäume
+14.11.2023	18:34 Uhr; Wassereinbruch
+14.11.2023	18:22 Uhr; BMA-Alarm
+14.11.2023	06:08 Uhr; Windfall/gestürzte Bäume
+13.11.2023	22:26 Uhr; BMA-Alarm
+09.11.2023	22:56 Uhr; BMA-Alarm
+09.11.2023	18:48 Uhr; Fahrzeugbrand
+05.11.2023	16:38 Uhr; Falschalarm
+28.10.2023	01:07 Uhr; BMA-Alarm
+26.10.2023	03:12 Uhr; Herznotfall
+25.10.2023	00:39 Uhr, BMA-Alarm
+18.10.2023	06:03 Uhr; BMA-Alarm
+16.10.2023	04:50 Uhr; BMA-Alarm
+14.10.2023	14:27 Uhr; BMA-Alarm
+13.10.2023	21:30 Uhr; Fahrzeugbrand
+13.10.2023	20:26 Uhr; Waldbrand
+11.10.2023	15:52 Uhr; Verkehrsunfall
+07.10.2023	14:11 Uhr; Verkehrsunfall
+06.10.2023	08:00 Uhr; BMA-Alarm
+05.10.2023	21:34 Uhr; Brand
+05.10.2023	05:24 Uhr; BMA-Alarm
+02.10.2023	16:21 Uhr; Brand
+29.09.2023	17:21 Uhr; Brand
+22.09.2023	20:57 Uhr; Brand
+20.09.2023	01:38 Uhr; BMA-Alarm
+19.09.2023	06:45 Uhr; Brand
+11.09.2023	09:45 Uhr; Herznotfall
+02.09.2023	16:49 Uhr; Windfall
+25.08.2023	18:13 Uhr; BMA-Alarm
+10.08.2023	05:34 Uhr; BMA-Alarm
+08.08.2023	11:57 Uhr; Brand Gasgrill
+03.08.2023	18:01 Uhr; Hilfeleistung
+28.07.2023	17:24 Uhr; Fahrzeugbrand A1
+22.07.2023	17:57 Uhr; Verkehrsunfall
+15.07.2023	02:29 Uhr; Verkehrsunfall
+14.07.2023	11:40 Uhr; Brand Lieferwagen A1
+14.07.2023	08:39 Uhr; Hilfeleistung
+13.07.2023	19:10 Uhr; BMA-Alarm
+11.07.2023	11:42 Uhr; Betriebsumfall mit Ammoniak
+05.07.2023	18:05 Uhr; Verkehrsunfall
+22.06.2023	19:08 Uhr; BMA-Alarm
+12.06.2023	10:40 Uhr; Todesfall
+11.06.2023	02:33 Uhr; BMA-Alarm
+09.06.2023	17:35 Uhr; Wasserleitungsbruch
+09.06.2023	00:09 Uhr; BMA-Alarm
+08.06.2023	23:19 Uhr; BMA-Alarm
+08.06.2023	10:43 Uhr; Person auf Brücke
+07.06.2023	15:16 Uhr; Fahrzeugbrand
+07.06.2023	06:56 Uhr; Brand PW A1/A2
+06.06.2023	17:14 Uhr; Brand Ladung Lieferwagen
+05.06.2023	19:44 Uhr; BMA-Alarm
+29.05.2023	05:25 Uhr; Sprinkleralarm
+26.05.2023	03:25 Uhr; BMA-Alarm
+26.05.2023	01:41 Uhr; Sprinkleralarm
+23.05.2023	05:38 Uhr; BMA-Alarm
+19.05.2023	04:21 Uhr; Fahrzeugbrand A1
+18.05.2023	21:13 Uhr; Hilfeleistung (Liftrettung)
+15.05.2023	07:58 Uhr; Herznotfall
+11.05.2023	16:31 Uhr; Brand
+09.05.2023	22:27 Uhr; BMA-Alarm
+06.05.2023	13:24 Uhr; BMA-Alarm
+03.05.2023	17:42 Uhr; Verkehrsunfall A2
+02.05.2023	03:35 Uhr; Fahrzeugbrand A1
+29.04.2023	19:53 Uhr; BMA-Alarm
+29.04.2023	17:12 Uhr; BMA-Alarm
+21.04.2023	05:18 Uhr; BMA-Alarm (Sprinkler)
+05.04.2023	20:06 Uhr; BMA-Alarm
+16.03.2023	19:19 Uhr; BMA-Alarm
+15.03.2023	10:30 Uhr; BMA-Alarm
+13.03.2023	21:28 Uhr; Windfall
+06.03.2023	09:11 Uhr; Umweltschutz
+01.03.2023	16:55 Uhr; Sprinkleralarm
+22.02.2023	10:35 Uhr; BMA-Alarm
+18.02.2023	05:24 Uhr; Brand
+15.02.2023	06:17 Uhr; Brand
+02.02.2023	13:24 Uhr; Fahrzeugbrand A2
+30.01.2023	13:51 Uhr; BMA-Alarm
+28.01.2023	14:24 Uhr; BMA-Alarm
+05.01.2023	19:00 Uhr; Verkehrsunfall
+01.01.2023	00:08 Uhr; BMA-Alarm

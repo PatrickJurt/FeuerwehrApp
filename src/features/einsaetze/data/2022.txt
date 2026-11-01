@@ -1,0 +1,77 @@
+31.12.2022	22:12 Uhr; Brand
+30.12.2022	08:03 Uhr; BMA-Alarm
+22.12.2022	18:10 Uhr; BMA-Alarm
+19.12.2022	14:13 Uhr; BMA-Alarm
+15.12.2022	21:12 Uhr; BMA-Alarm
+14.12.2022	15:35 Uhr; BMA-Alarm
+17.11.2022	19:41 Uhr; Verkehrsunfall
+12.11.2022	05:53 Uhr; BMA-Alarm
+05.11.2022	12:26 Uhr; verschmutzte Fahrbahn
+03.11.2022	16:23 Uhr; BMA-Alarm
+27.10.2022	04:38 Uhr; Sprinkleralarm
+27.10.2022	02:51 Uhr; Fahrzeugband A1
+27.10.2022	00:58 Uhr; Sprinkleralarm
+26.10.2022	19:31 Uhr; Wasserrohrbruch
+25.10.2022	16:02 Uhr; Falschalarm Ammoniakgasalarm
+17.10.2022	23:44 Uhr; BMA-Alarm
+15.10.2022	19:00 Uhr; Falschalarm Fahrzeugbrand A1
+10.10.2022	16:23 Uhr; Gegenstände auf Fahrbahn
+03.10.2022	05:59 Uhr; Brand
+29.09.2022	10:30 Uhr; BMA-Alarm
+28.09.2022	17:19 Uhr; BMA-Alarm
+28.09.2022	13:54 Uhr; Elementarereignis
+25.09.2022	04:06 Uhr; Verkehrsunfall (Oelwehr)
+23.09.2022	05:08 Uhr; Verkehrsunfall
+22.09.2022	20:58 Uhr; BMA-Alarm
+15.08.2022	14:23 Uhr; Hilfeleistung
+12.08.2022	15:32 Uhr; BMA-Alarm
+12.08.2022	11:27 Uhr; Brand A1
+08.08.2022	17:24 Uhr; Herznotfall
+08.08.2022	05:59 Uhr; Fahrzeugbrand A1
+30.07.2022	12:50 Uhr; Wassereinbruch
+28.07.2022	07:46 Uhr; Herznotfall
+27.07.2022	15:35 Uhr; Brand
+30.06.2022	18:14 Uhr; Falschalarm Brand
+26.06.2022	10:48 Uhr; BMA-Alarm
+23.06.2022	20:40 Uhr; Windfall
+21.06.2022	19:40 Uhr; BMA-Alarm
+21.06.2022	07:19 Uhr; BMA-Alarm
+20.06.2022	01:18 Uhr; Herznotfall
+19.06.2022	14:24 Uhr; Flurbrand A1
+18.06.2022	08:40 Uhr; BMA-Alarm
+17.06.2022	14:30 Uhr; Waldbrand
+07.06.2022	04:24 Uhr; BMA-Alarm
+06.06.2022	16:08 Uhr; Brand
+02.06.2022	17:20 Uhr; Brand
+26.05.2022	01:12 Uhr; Verkehrsunfall
+21.05.2022	14:10 Uhr; Verkehrsunfall A1
+21.05.2022	12:43 Uhr; BMA-Alarm
+04.05.2022	21:50 Uhr; Brand
+04.05.2022	08:54 Uhr; Fahrzeugbrand A2
+03.05.2022	17:40 Uhr; Gas-Immission
+19.04.2022	14:56 Uhr; Brand Egerkingen
+11.04.2022	08:43 Uhr; BMA-Alarm
+31.03.2022	21:01 Uhr; Verkehrsunfall
+29.03.2022	09:55 Uhr; BMA-Alarm
+25.03.2022	00:28 Uhr; Waldbrand
+24.03.2022	18:46 Uhr; Waldbrand
+22.03.2022	18:16 Uhr; BMA-Alarm
+21.03.2022	14:31 Uhr; Brand
+20.03.2022	15:18 Uhr; Pannenfahrzeug
+17.03.2022	13:46 Uhr; BMA-Alarm
+12.03.2022	16:00 Uhr; Pikettstellung Fw Balsthal
+12.03.2022	14:30 Uhr; Waldbrand
+07.03.2022	09:55 Uhr; Brand
+04.03.2022	19:43 Uhr; Verkehrsunfall
+03.03.2022	06:17 Uhr; Verkehrsunfall
+27.02.2022	12:21 Uhr; Wassereinbruch/Überschwemmung
+21.02.2022	15:57 Uhr; BMA-Alarm
+11.02.2022	01:44 Uhr; Wassereinbruch/Überschwemmung
+09.02.2022	21:30 Uhr; Geisterfahrer/Falschfahrer
+04.02.2022	20:56 Uhr; Fahrzeugbrand A2
+25.01.2022	20:15 Uhr; verkeilter LKW mit Anhänger
+25.01.2022	10:53 Uhr; Fahrzeugbrand A1
+12.01.2022	23:59 Uhr; BMA-Alarm
+09.01.2022	15:36 Uhr; Hilfeleistung
+04.01.2022	22:32 Uhr; Sturmschaden
+04.01.2022	21:32 Uhr; BMA-Alarm

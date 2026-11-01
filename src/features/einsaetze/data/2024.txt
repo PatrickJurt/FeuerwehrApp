@@ -1,0 +1,76 @@
+13.12.2024	18:00 Uhr; BMA-Alarm
+13.12.2024	02:45 Uhr; BMA-Alarm
+02.12.2024	08:16 Uhr; BMA-Alarm
+30.11.2024	06:21 Uhr; Fahrzeugbrand
+08.11.2024	13:21 Uhr; Verkehrsunfall
+28.10.2024	21:14 Uhr; BMA-Alarm
+28.10.2024	09:54 Uhr; Brand
+15.10.2024	10:17 Uhr; Verkehrsunfall
+11.10.2024	20:27 Uhr; BMA-Alarm
+06.10.2024	18:24 Uhr; BMA-Alarm
+06.10.2024	15:50 Uhr; BMA-Alarm
+05.10.2024	12:19 Uhr; Kaminbrand
+26.09.2024	18:12 Uhr; BMA-Alarm
+26.09.2024	15:38 Uhr; BMA-Alarm
+23.09.2024	05:57 Uhr; BMA-Alarm
+22.09.2024	14:21 Uhr; Hilfeleistung
+20.09.2024	22:47 Uhr; Verkehrsunfall
+14.09.2024	18:02 Uhr; BMA-Alarm
+14.09.2024	15:32 Uhr; Falschalarm
+14.09.2024	10:32 Uhr; Fahrzeugbrand A2
+11.09.2024	16:35 Uhr; Fahrzeugbrand A1
+03.09.2024	01:52 Uhr; BMA-Alarm
+02.09.2024	06:32 Uhr; Wassereinbruch/Überschwemmung
+28.08.2024	13:38 Uhr; Falschalarm
+22.08.2024	01:46 Uhr; BMA-Alarm
+15.08.2024	22:24 Uhr; BMA-Alarm
+14.08.2024	13:49 Uhr; Falschalarm
+10.08.2024	19:12 Uhr; Flurbrand
+09.08.2024	20:36 Uhr; BMA-Alarm
+06.08.2024	20:25 Uhr; BMA-Alarm
+02.08.2024	14:15 Uhr; BMA-Alarm
+24.07.2024	17:23 Uhr; Brand
+12.07.2024	18:51 Uhr; Herznotfall
+09.07.2024	18:57 Uhr; Herznotfall
+09.07.2024	18:20 Uhr; Herznotfall
+07.07.2024	10:59 Uhr; Herznotfall
+02.07.2024	08:23 Uhr; BMA-Alarm
+16.06.2024	17:17 Uhr; BMA-Alarm
+12.06.2024	08:08 Uhr; Herznotfall
+07.06.2024	17:57 Uhr; Falschalarm Fahrzeugbrand A1
+02.06.2024	23:21 Uhr; BMA-Alarm
+01.06.2024	19:00 Uhr; BMA-Alarm
+23.05.2024	06:08 Uhr; Wassereinbruch/Überschwemmung
+22.05.2024	15:35 Uhr; Oelspur
+16.05.2024	18:47 Uhr; Hilfeleistung
+02.05.2024	13:49 Uhr; Brand
+27.04.2024	14:02 Uhr; BMA-Alarm
+27.04.2024	10:25 Uhr; Wassereinbruch/Überschwemmung
+26.04.2024	04:33 Uhr; BMA-Alarm
+25.04.2024	20:16 Uhr; Brand (Rauchentwicklung Backofen)
+15.04.2024	14:25 Uhr; BMA-Alarm (Sprinkler)
+12.04.2024	07:50 Uhr; BMA-Alarm
+09.04.2024	20:44 Uhr; Oelspur
+07.04.2024	00:19 Uhr; Hilfeleistung (Katze eingeklemmt)
+06.04.2024	14:25 Uhr; BMA-Alarm
+19.03.2024	06:10 Uhr; BMA-Alarm
+15.03.2024	06:50 Uhr; Fahrzeugbrand A1
+03.03.2024	07:59 Uhr; Brand (Rauchentwicklung Oelheizung)
+28.02.2024	15:06 Uhr; Ammoniakgasalarm (Fehlalarm)
+27.02.2024	06:57 Uhr; Brand
+23.02.2024	09:16 Uhr; Brand
+23.02.2024	07:30 Uhr; Gas Immission/Leitungsbruch
+22.02.2024	22:29 Uhr; Gas Immission/Leitungsbruch
+18.02.2024	20:18 Uhr; Falschalarm
+18.02.2024	13:18 Uhr; BMA-Alarm
+17.02.2024	13:39 Uhr; vermisste Person
+16.02.2024	16:14 Uhr; Verkehrsunfall
+05.02.2024	03:55 Uhr; BMA-Alarm
+27.01.2024	17:30 Uhr; BMA-Alarm
+23.01.2024	15:50 Uhr; Brand Wohnung
+18.01.2024	13:18 Uhr; Herznotfall
+15.01.2024	06:26 Uhr; Brand Wohnhaus
+12.01.2024	12:50 Uhr; Hilfeleistung
+06.01.2024	15:38 Uhr; BMA-Alarm
+04.01.2024	14:18 Uhr; BMA-Alarm
+01.01.2024	00:14 Uhr; BMA-Alarm

@@ -1,0 +1,89 @@
+30.12.2020	20:10 Uhr; Wassereinbruch
+11.12.2020	21:40 Uhr; BMA-Alarm
+09.12.2020	14:09 Uhr; BMA-Alarm
+04.12.2020	13:52 Uhr; BMA-Alarm
+02.12.2020	07:16 Uhr; Strassensperrung
+24.11.2020	04:18 Uhr; Fahrzeugbrand
+22.11.2020	12:21 Uhr; BMA-Alarm
+15.11.2020	11:39 Uhr; BMA-Alarm
+12.11.2020	12:10 Uhr; Brand
+09.11.2020	05:09 Uhr; BMA-Alarm
+31.10.2020	11:16 Uhr; Herznotfall
+30.10.2020	06:06 Uhr; Herznotfall
+28.10.2020	18:16 Uhr; Herznotfall
+25.10.2020	08:54 Uhr; BMA-Alarm
+22.10.2020	20:45 Uhr; Brand Wolfwil
+15.10.2020	06:04 Uhr; BMA-Alarm
+13.10.2020	09:08 Uhr; Wassereinbruch in Keller
+09.10.2020	08:37 Uhr; Herznotfall
+08.10.2020	11:45 Uhr; BMA-Alarm
+08.10.2020	00:16 Uhr; Fahrzeugbrand
+25.09.2020	15:42 Uhr; BMA-Alarm
+25.09.2020	11:39 Uhr; Herznotfall
+20.09.2020	21:19 Uhr; BMA-Alarm
+19.09.2020	09:59 Uhr; BMA-Alarm
+18.09.2020	01:55 Uhr; BMA-Alarm
+10.09.2020	07:02 Uhr; Patientenbergung
+09.09.2020	20:10 Uhr; BMA-Alarm
+09.09.2020	10:35 Uhr; Herznotfall
+07.09.2020	12:40 Uhr; Herznotfall
+04.09.2020	07:29 Uhr; Herznotfall
+29.08.2020	18:53 Uhr; BMA-Alarm
+28.08.2020	19:00 Uhr; Fehlalarm
+26.08.2020	16:50 Uhr; Wasserleitungsbruch
+20.08.2020	19:45 Uhr; Liftrettung
+18.08.2020	02:46 Uhr; BMA-Alarm
+07.08.2020	21:52 Uhr; BMA-Alarm
+01.08.2020	07:32 Uhr; BMA-Alarm
+26.07.2020	11:52 Uhr; Brand Gasgrill
+21.07.2020	16:10 Uhr; Blitzeinschlag
+11.07.2020	18:34 Uhr; BMA-Alarm
+06.07.2020	15:21 Uhr; Fahrzeugbrand A1
+05.07.2020	15:30 Uhr; Oelspur
+04.07.2020	23:01 Uhr; BMA-Alarm
+04.07.2020	20:43 Uhr; BMA-Alarm
+03.07.2020	12:06 Uhr; BMA-Alarm
+23.06.2020	09:13 Uhr; Verkehrsunfall
+19.06.2020	14:08 Uhr; Fahrzeugbrand A2
+13.06.2020	22:39 Uhr; Rauch im Keller
+12.06.2020	15:36 Uhr; Patientenbergung (ADL)
+10.06.2020	21:29 Uhr; BMA-Alarm
+09.06.2020	21:27 Uhr; BMA-Alarm
+05.06.2020	19:29 Uhr; BMA-Alarm
+05.06.2020	09:52 Uhr; Herznotfall
+23.05.2020	11:37 Uhr; BMA-Alarm
+23.05.2020	01:43 Uhr; Falschalarm
+19.05.2020	12:45 Uhr; BMA-Alarm
+11.05.2020	18:53 Uhr; Windbruch
+29.04.2020	15:10 Uhr; BMA-Alarm
+24.04.2020	17:05 Uhr; BMA-Alarm
+24.04.2020	17:00 Uhr; BMA-Alarm
+22.04.2020	17:46 Uhr; Herznotfall
+19.04.2020	17:21 Uhr; Brand Gasgrill
+10.04.2020	18:17 Uhr; Nachbarhilfe bei Waldbrand
+08.04.2020	05:38 Uhr; Herznotfall
+06.04.2020	16:00 Uhr; Waldbrand
+01.04.2020	09:41 Uhr; BMA-Alarm
+31.03.2020	10:59 Uhr; BMA-Alarm
+20.03.2020	09:03 Uhr; Herznotfall
+17.03.2020	08:16 Uhr; Herznotfall
+04.03.2020	17:22 Uhr; Falschalarm
+01.03.2020	11:32 Uhr; Fahrzeugbrand A1
+19.02.2020	09:57 Uhr; Herznotfall
+18.02.2020	18:56 Uhr; BMA-Alarm
+15.02.2020	17:01 Uhr; BMA-Alarm
+13.02.2020	20:33 Uhr; BMA-Alarm
+12.02.2020	20:32 Uhr; BMA-Alarm
+08.02.2020	19:50 Uhr; Herznotfall
+05.02.2020	14:17 Uhr; BMA-Alarm
+04.02.2020	06:05 Uhr; Windfall
+26.01.2020	17:20 Uhr; Patientenbergung (ADL)
+25.01.2020	09:17 Uhr; BMA-Alarm
+23.01.2020	20:34 Uhr; BMA-Alarm
+21.01.2020	09:03 Uhr; BMA-Alarm
+18.01.2020	21:02 Uhr; BMA-Alarm
+18.01.2020	07:50 Uhr; Herznotfall
+09.01.2020	03:44 Uhr; BMA-Alarm
+08.01.2020	13:11 Uhr; Fahrzeugbrand
+06.01.2020	00:32 Uhr; Wassereinbruch in Keller
+03.01.2020	14:28 Uhr; Herznotfall

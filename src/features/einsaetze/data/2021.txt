@@ -1,0 +1,75 @@
+29.12.2021	21:41 Uhr; BMA-Alarm
+17.12.2021	17:30 Uhr; BMA-Alarm
+09.12.2021	07:14 Uhr; BMA-Alarm
+05.12.2021	21:13 Uhr; Verkehrsunfall
+04.12.2021	20:30 Uhr; Wassereinbruch
+30.11.2021	20:53 Uhr; Herznotfall
+30.11.2021	07:36 Uhr; BMA-Alarm
+21.11.2021	18:32 Uhr; Verkehrsunfall A1
+19.11.2021	19:31 Uhr; BMA-Alarm
+10.11.2021	13:23 Uhr; Fahrzeugbrand A2
+28.10.2021	04:47 Uhr; BMA-Alarm
+27.10.2021	22:05 Uhr; BMA-Alarm
+06.10.2021	08:15 Uhr; BMA-Alarm
+04.10.2021	00:54 Uhr; BMA-Alarm
+03.10.2021	19:44 Uhr; Verkehrsunfall A1
+29.09.2021	17:33 Uhr; BMA-Alarm
+28.09.2021	18:48 Uhr; Fahrzeugbrand A2
+16.09.2021	09:41 Uhr; Schadensdienst
+14.09.2021	19:15 Uhr; Falschalarm
+12.09.2021	16:07 Uhr; Brand
+12.09.2021	04:04 Uhr; BMA-Alarm
+04.09.2021	14:55 Uhr; Verkehrsunfall A1
+22.08.2021	06:14 Uhr; BMA-Alarm
+21.08.2021	07:11 Uhr; BMA-Alarm
+21.08.2021	01:19 Uhr; Brand
+21.08.2021	00:52 Uhr; Brand
+16.08.2021	20:30 Uhr; Ölwehr
+14.08.2021	15:29 Uhr; BMA-Alarm
+14.08.2021	12:18 Uhr; BMA-Alarm
+02.08.2021	14:13 Uhr; Wassereintritt
+01.08.2021	08:10 Uhr; Patientenbergung
+26.07.2021	16:59 Uhr; Brand
+23.07.2021	17:58 Uhr; Schadensdienst
+23.07.2021	10:04 Uhr; Fahrzeugbrand
+21.07.2021	08:41 Uhr; Fahrzeugbrand
+18.07.2021	16:00 Uhr; Herznotfall
+16.07.2021	14:10 Uhr; Verkehrsunfall
+15.07.2021	19:40 Uhr; Wassereinbruch/Überschwemmung
+15.07.2021	11:52 Uhr; Wassereinbruch/Überschwemmung
+30.06.2021	08:24 Uhr; Wasserleitungsbruch
+25.06.2021	08:57 Uhr; Hilfeleistung
+23.06.2021	06:23 Uhr; Wassereinbruch
+22.06.2021	19:06 Uhr; BMA-Alarm
+20.06.2021	01:28 Uhr; Brand
+16.06.2021	22:15 Uhr; LKW-Brand
+16.06.2021	21:01 Uhr; Rettungsdienst
+13.06.2021	20:42 Uhr; BMA-Alarm
+12.06.2021	23:50 Uhr; Herznotfall
+11.06.2021	20:33 Uhr; BMA-Alarm
+05.06.2021	16:56 Uhr; Verkehrsunfall
+05.06.2021	03:03 Uhr; Windfall
+31.05.2021	05:55 Uhr; BMA-Alarm
+30.05.2021	06:14 Uhr; BMA-Alarm
+29.05.2021	21:31 Uhr; BMA-Alarm
+28.05.2021	19:14 Uhr; BMA-Alarm
+26.05.2021	17:18 Uhr; Brand Kehrichteimer
+17.05.2021	08:36 Uhr; Verkehrsunfall
+07.05.2021	02:37 Uhr; Brand
+02.05.2021	00:13 Uhr; BMA-Alarm
+24.04.2021	22:30 Uhr; BMA-Alarm
+23.04.2021	04:26 Uhr; BMA-Alarm
+18.04.2021	22:36 Uhr; BMA-Alarm
+27.03.2021	21:14 Uhr; Herznotfall
+26.03.2021	14:25 Uhr; BMA-Alarm
+24.03.2021	14:16 Uhr; Brand A1
+22.03.2021	18:38 Uhr; Liftrettung
+19.03.2021	18:08 Uhr; Herznotfall
+14.03.2021	16:33 Uhr; Steinschlag
+12.03.2021	14:10 Uhr; Brand
+10.03.2021	10:47 Uhr; Brand
+23.02.2021	08:41 Uhr; BMA-Alarm
+12.02.2021	05:27 Uhr; Schadensdienst (Ölwehr)
+11.02.2021	06:21 Uhr; BMA-Alarm
+07.02.2021	13:57 Uhr; Herznotfall
+01.01.2021	00:03 Uhr; BMA-Alarm

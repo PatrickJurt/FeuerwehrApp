@@ -1,3 +1,67 @@
+29.10.2026	22:52 Uhr; BMA-Alarm
+15.10.2026	05:53 Uhr; BMA-Alarm
+10.10.2026	13:11 Uhr; BMA-Alarm
+07.10.2026	12:54 Uhr; Brand (Holzschnitzel)
 03.10.2026	01:18 Uhr; B / C Ereignis
 02.10.2026	15:18 Uhr; Hilfeleistung (Sichtschutz)
 19.09.2026	16:30 Uhr; BMA-Alarm
+19.09.2026	14:51 Uhr; BMA-Alarm
+18.09.2026	20:40 Uhr; BMA-Alarm
+17.09.2026	20:21 Uhr; Herznotfall
+14.09.2026	14:42 Uhr; Verkehrsunfall VU
+14.09.2026	05:13 Uhr; BMA-Alarm
+09.09.2026	05:41 Uhr; Wassereinbruch / Überschwemmung
+08.09.2026	21:28 Uhr; Windfall / gestürzte Bäume
+06.09.2026	18:09 Uhr; Brand
+06.09.2026	13:29 Uhr; Flurbrand A1
+03.09.2026	08:23 Uhr; Wassereinbruch / Ueberschwemmung
+02.09.2026	18:36 Uhr; BMA-Alarm
+28.08.2026	09:40 Uhr; Windfall / gestürzte Bäume
+27.08.2026	01:03 Uhr; BMA-Alarm
+17.08.2026	02:15 Uhr; Wasserleitungsbruch
+16.08.2026	07:21 Uhr; BMA-Alarm
+14.08.2026	08:29 Uhr; Brand (Fahrzeug)
+05.08.2026	18:07 Uhr; BMA-Alarm
+01.08.2026	16:43 Uhr; Brand
+31.07.2026	19:20 Uhr; Brand (Fahrzeug)
+30.07.2026	19:45 Uhr; Brand Bahnbord Oberbuchsiten - Oensingen
+30.07.2026	15:33 Uhr; Brand A2
+17.07.2026	09:23 Uhr; BMA-Alarm
+15.07.2026	03:41 Uhr; BMA-Alarm
+15.07.2026	00:58 Uhr; BMA-Alarm
+11.07.2026	13:23 Uhr; Brand
+06.07.2026	21:37 Uhr; Verkehrsunfall VU
+06.07.2026	11:08 Uhr; BMA-Alarm
+01.07.2026	23:26 Uhr; Brand (Rauchentwicklung Fahrzeug)
+29.06.2026	20:35 Uhr; Brand (Rauchentwicklung Bremse)
+29.06.2026	11:01 Uhr; BMA-Alarm
+23.06.2026	06:06 Uhr; Brand (Fahrzeug)
+09.06.2026	07:53 Uhr; BMA-Alarm
+03.06.2026	16:35 Uhr; BC-Ereignis
+31.05.2026	07:34 Uhr; Verkehrsunfall VU
+30.05.2026	05:01 Uhr; BMA-Alarm
+28.05.2026	14:29 Uhr; Oelspur
+26.05.2026	15:47 Uhr; Verkehrsunfall VU (Umleitung)
+25.05.2026	15:32 Uhr; Ammoniakgasalarm
+23.05.2026	19:44 Uhr; Oelspur
+18.05.2026	18:15 Uhr; BMA-Alarm
+15.05.2026	13:59 Uhr; BMA-Alarm
+07.05.2026	18:54 Uhr; Fahrzeugbrand A1
+02.05.2026	21:50 Uhr; Brand (Waldbrand Meltingen / Modullieferung)
+21.04.2026	05:19 Uhr; BMA-Alarm
+19.04.2026	14:16 Uhr; BMA-Alarm
+03.04.2026	06:41 Uhr; BMA-Alarm
+28.03.2026	01:33 Uhr; Herznotfall
+21.03.2026	20:18 Uhr; Brand (Waldbrand)
+21.03.2026	03:55 Uhr; BMA-Alarm
+16.03.2026	11:45 Uhr; Brand
+14.03.2026	17:46 Uhr; Wassereinbruch / Überschwemmung
+07.03.2026	12:18 Uhr; Fahrzeugbrand A1
+27.02.2026	23:13 Uhr; Verkehrsunfall VU (Fz-Bergung)
+26.02.2026	19:50 Uhr; Liftrettung
+17.02.2026	17:33 Uhr; BMA-Alarm
+11.02.2026	20:25 Uhr; BMA-Alarm
+20.01.2026	03:00 Uhr; BMA-Alarm
+17.01.2026	01:48 Uhr; BMA-Alarm
+11.01.2026	18:41 Uhr; Wasserleitungsbruch
+02.01.2026	16:55 Uhr; Todesfall

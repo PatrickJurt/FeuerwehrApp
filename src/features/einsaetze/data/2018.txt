@@ -1,0 +1,98 @@
+29.12.2018	19:08 Uhr; Brand Container
+27.12.2018	17:29 Uhr; Herznotfall
+25.12.2018	13:37 Uhr; Rauchentwicklung Belchentunnel
+24.12.2018	08:19 Uhr; BMA-Alarm
+22.12.2018	07:34 Uhr; BMA-Alarm
+22.12.2018	10:19 Uhr; BMA-Alarm
+22.12.2018	10:56 Uhr; BMA-Alarm
+16.12.2018	17:45 Uhr; Zimmerbrand
+13.12.2018	17:03 Uhr; Oelspur
+08.12.2018	09:23 Uhr; umgestürzte Bauprofile
+05.12.2018	21:48 Uhr; BMA-Alarm
+04.12.2018	18:11 Uhr; Verkehrsunfall
+02.12.2018	11:19 Uhr; BMA-Alarm
+22.11.2018	07:51 Uhr; BMA-Alarm
+20.11.2018	03:40 Uhr; Herznotfall
+18.11.2018	04:15 Uhr; Geruchsemission in Wohnung
+08.11.2018	23:46 Uhr; Brand Sicherungskasten
+03.11.2018	05:34 Uhr; BMA-Alarm
+30.10.2018	13:14 Uhr; Herznotfall
+25.10.2018	16:29 Uhr; BMA-Alarm
+18.10.2018	12:14 Uhr; kleiner Brand, Feuerstelle
+11.10.2018	05:18 Uhr; BMA-Alarm
+28.09.2018	09:54 Uhr; BMA-Alarm
+27.09.2018	19:20 Uhr; Fahrzeugbrand A1
+24.09.2018	16:00 Uhr; Falschalarm
+13.09.2018	19:50 Uhr; Wassereintritt in Keller
+09.09.2018	11:32 Uhr; Herznotfall
+08.09.2018	08:28 Uhr; BMA-Alarm
+07.09.2018	09:18 Uhr; Brand in Rohr von Absauganlage
+26.08.2018	05:38 Uhr; BMA-Alarm
+26.08.2018	08:26 Uhr; BMA-Alarm
+17.08.2018	15:04 Uhr; BMA-Alarm
+11.08.2018	02:36 Uhr; BMA-Alarm
+03.08.2018	15:16 Uhr; BMA-Alarm
+30.07.2018	17:36 Uhr; BMA-Alarm
+26.07.2018	14:25 Uhr; BMA-Alarm
+21.07.2018	07:35 Uhr; BMA-Alarm
+18.07.2018	03:29 Uhr; BMA-Alarm
+15.07.2018	02:59 Uhr; Herznotfall
+11.07.2018	06:28 Uhr; Wassereintritt durch Löschposten
+10.07.2018	04:19 Uhr; Brand Fahrzeuge
+07.07.2018	03:15 Uhr; BMA-Alarm
+16.06.2018	13:11 Uhr; BMA-Alarm
+14.06.2018	11:40 Uhr; BMA-Alarm
+13.06.2018	14:30 Uhr; BMA-Alarm
+09.06.2018	03:15 Uhr; Verkehrsunfall
+08.06.2018	19:41 Uhr; Verkehrsunfall ohne Personenbergung
+05.06.2018	17:15 Uhr; BMA-Alarm
+30.05.2018	11:50 Uhr; Herznotfall
+30.05.2018	15:03 Uhr; Herznotfall
+23.05.2018	00:06 Uhr; Brand Tiefgarage
+20.05.2018	06:22 Uhr; BMA-Alarm
+01.05.2018	03:11 Uhr; BMA-Alarm
+29.04.2018	13:00 Uhr; Wasser aus WC
+28.04.2018	14:28 Uhr; Brand Bahnbord
+26.04.2018	12:10 Uhr; Patientenbergung
+23.04.2018	05:10 Uhr; BMA-Alarm
+23.04.2018	15:57 Uhr; BMA-Alarm
+22.04.2018	19:54 Uhr; Herznotfall
+19.04.2018	07:13 Uhr; Fahrzeugbrand A1
+07.04.2018	13:04 Uhr; Brand Wohnwagen
+03.04.2018	13:53 Uhr; BMA-Alarm
+01.04.2018	20:54 Uhr; BMA-Alarm
+16.03.2018	09:10 Uhr; BMA-Alarm
+16.03.2018	15:04 Uhr; Ausgelaufener Nitroverdünner
+14.03.2018	02:12 Uhr; BMA-Alarm
+11.03.2018	00:43 Uhr; BMA-Alarm
+11.03.2018	08:31 Uhr; BMA-Alarm
+11.03.2018	08:34 Uhr; BMA-Alarm
+03.03.2018	15:50 Uhr; BMA-Alarm
+23.02.2018	15:54 Uhr; Falschalarm Brandmeldung
+23.02.2018	04:31 Uhr; BMA-Alarm
+20.02.2018	22:19 Uhr; Beschädigte Gasflasche
+18.02.2018	12:30 Uhr; Herznotfall
+17.02.2018	05:55 Uhr; Wassereintritt durch Leitungsbruch
+15.02.2018	08:15 Uhr; Herznotfall
+14.02.2018	22:16 Uhr; BMA-Alarm
+14.02.2018	00:10 Uhr; Herznotfall
+07.02.2018	21:01 Uhr; BMA-Alarm
+05.02.2018	19:16 Uhr; BMA-Alarm
+04.02.2018	21:53 Uhr; BMA-Alarm
+02.02.2018	06:44 Uhr; Verkehrsunfall PW (Personenbergung)
+30.01.2018	14:37 Uhr; BMA-Alarm
+26.01.2018	16:22 Uhr; BMA-Alarm
+21.01.2018	00:23 Uhr; PW-Brand-Verkehrsunfall
+17.01.2018	12:41 Uhr; Bahnunfall
+17.01.2018	14:57 Uhr; Brand
+17.01.2018	06:37 Uhr; Brand Boiler
+14.01.2018	20:46 Uhr; BMA-Alarm
+11.01.2018	00:25 Uhr; BMA-Alarm
+07.01.2018	06:16 Uhr; Herznotfall
+07.01.2018	18:07 Uhr; Brand auf Balkon
+05.01.2018	11:25 Uhr; BMA-Alarm
+05.01.2018	09:56 Uhr; Wassereinbruch
+04.01.2018	14:49 Uhr; Wassereinbruch
+04.01.2018	10:07 Uhr; Windfall, Baum auf Telefonleitung
+03.01.2018	11:20 Uhr; Sturm Burglinde
+01.01.2018	00:08 Uhr; BMA-Alarm

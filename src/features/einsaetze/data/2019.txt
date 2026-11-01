@@ -1,0 +1,74 @@
+23.12.2019	16:46 Uhr; BMA-Alarm
+22.12.2019	20:21 Uhr; Herznotfall
+22.12.2019	16:15 Uhr; Elementarereignis
+21.12.2019	17:30 Uhr; BMA-Alarm
+11.12.2019	16:59 Uhr; BMA-Alarm
+03.12.2019	10:06 Uhr; BMA-Alarm
+03.12.2019	10:06 Uhr; BMA-Alarm
+03.12.2019	05:02 Uhr; BMA-Alarm
+29.11.2019	18:43 Uhr; Brand Grüncontainer
+15.11.2019	20:35 Uhr; BMA-Alarm
+11.11.2019	06:50 Uhr; Wassereinbruch in Keller
+01.11.2019	08:04 Uhr; Falschalarm
+29.10.2019	03:32 Uhr; BMA-Alarm
+24.10.2019	10:56 Uhr; BMA-Alarm
+22.10.2019	02:07 Uhr; BMA-Alarm
+15.10.2019	08:26 Uhr; BMA-Alarm
+08.10.2019	08:05 Uhr; Herznotfall
+24.09.2019	20:33 Uhr; Rauchentwicklung
+07.09.2019	11:54 Uhr; Herznotfall
+30.08.2019	18:43 Uhr; Herznotfall
+26.08.2019	16:41 Uhr; BMA-Alarm
+16.08.2019	14:33 Uhr; Herznotfall
+15.08.2019	03:45 Uhr; BMA-Alarm
+08.08.2019	15:27 Uhr; Wasser im Keller
+08.08.2019	00:02 Uhr; BMA-Alarm
+06.08.2019	20:20 Uhr; Windfall
+06.08.2019	02:36 Uhr; Überschwemmung
+01.08.2019	21:02 Uhr; Brand
+29.07.2019	04:41 Uhr; Herznotfall
+27.07.2019	17:17 Uhr; BMA-Alarm
+27.07.2019	17:16 Uhr; Überschwemmung
+27.07.2019	07:16 Uhr; BMA-Alarm
+26.07.2019	20:42 Uhr; Windfall Baum
+26.07.2019	14:00 Uhr; BMA-Alarm
+25.07.2019	22:51 Uhr; Rückstau Kanalisation
+21.07.2019	23:59 Uhr; ADL-Hilfestellung nach Explosion
+17.07.2019	20:19 Uhr; Oelunfall
+16.07.2019	18:34 Uhr; Brand Grünstreifen A1
+15.07.2019	10:56 Uhr; Herznotfall
+09.07.2019	19:30 Uhr; Waldbrand
+06.07.2019	09:34 Uhr; Waldbrand
+01.07.2019	18:13 Uhr; Brand Kinderwagen in Velokeller
+22.06.2019	17:04 Uhr; Herznotfall
+19.06.2019	09:07 Uhr; Patientenbergung
+05.06.2019	21:50 Uhr; Rauchentwicklung Heizung
+05.06.2019	13:37 Uhr; Fahrzeugbrand A1
+25.05.2019	13:21 Uhr; BMA-Alarm
+24.05.2019	04:05 Uhr; BMA-Alarm
+21.05.2019	15:18 Uhr; Herznotfall
+06.05.2019	21:40 Uhr; Brand
+26.04.2019	14:26 Uhr; BMA-Alarm
+17.04.2019	10:58 Uhr; Herznotfall
+09.04.2019	19:12 Uhr; Brand Motorrad
+07.04.2019	19:03 Uhr; Herznotfall
+05.04.2019	17:13 Uhr; Brand Container
+04.04.2019	11:22 Uhr; BMA-Alarm
+01.04.2019	22:41 Uhr; BMA-Alarm
+21.03.2019	13:32 Uhr; BMA-Alarm
+07.03.2019	16:49 Uhr; BMA-Alarm
+06.03.2019	14:16 Uhr; Falschalarm
+05.03.2019	14:01 Uhr; Fahrzeugbrand A1
+26.02.2019	21:35 Uhr; BMA-Alarm
+24.02.2019	23:29 Uhr; Fahrzeugbrand A1
+13.02.2019	09:55 Uhr; Herznotfall
+10.02.2019	13:56 Uhr; Brand Abfallkorb
+05.02.2019	13:04 Uhr; Herznotfall
+24.01.2019	11:51 Uhr; Herznotfall
+20.01.2019	10:00 Uhr; Wassereinbruch
+17.01.2019	11:21 Uhr; Brand (Herdplatte)
+15.01.2019	15:12 Uhr; Herznotfall
+14.01.2019	18:22 Uhr; Fahrzeugbrand
+05.01.2019	13:12 Uhr; Fahrzeugbrand A1
+02.01.2019	22:59 Uhr; Herznotfall
+02.01.2019	22:41 Uhr; Brand Briefkasten
