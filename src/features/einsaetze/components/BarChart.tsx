@@ -2,11 +2,15 @@ import type { DistributionBucket } from '../types.ts'
 
 interface BarChartProps {
   buckets: DistributionBucket[]
+  compact?: boolean
+  showValues?: boolean
 }
 
 const HEIGHT = 270
 const BAR_WIDTH = 28
 const GAP = 8
+const COMPACT_WIDTH = 1100
+const COMPACT_GAP = 1
 const PADDING = { top: 34, bottom: 36, left: 8, right: 8 }
 const percentFormat = new Intl.NumberFormat('de-DE', {
   minimumFractionDigits: 2,
@@ -15,9 +19,19 @@ const percentFormat = new Intl.NumberFormat('de-DE', {
 
 const formatPercent = (value: number) => `${percentFormat.format(value)}%`
 
-export function BarChart({ buckets }: BarChartProps) {
+export function BarChart({ buckets, compact = false, showValues = true }: BarChartProps) {
   const max = Math.max(1, ...buckets.map((b) => b.count))
-  const width = PADDING.left + PADDING.right + buckets.length * (BAR_WIDTH + GAP)
+  const gap = compact ? COMPACT_GAP : GAP
+  const barWidth = compact
+    ? Math.max(
+        1,
+        (COMPACT_WIDTH - PADDING.left - PADDING.right - gap * Math.max(0, buckets.length - 1)) /
+          Math.max(1, buckets.length),
+      )
+    : BAR_WIDTH
+  const width = compact
+    ? COMPACT_WIDTH
+    : PADDING.left + PADDING.right + buckets.length * (barWidth + gap)
   const plotHeight = HEIGHT - PADDING.top - PADDING.bottom
 
   return (
@@ -31,30 +45,42 @@ export function BarChart({ buckets }: BarChartProps) {
       >
         {buckets.map((bucket, i) => {
           const barHeight = (bucket.count / max) * plotHeight
-          const x = PADDING.left + i * (BAR_WIDTH + GAP)
+          const x = PADDING.left + i * (barWidth + gap)
           const y = PADDING.top + plotHeight - barHeight
+          const showCompactTick = compact && i % 24 === 0
           return (
             <g key={bucket.label}>
               <title>{`${bucket.label}: ${bucket.count} (${formatPercent(bucket.percent)})`}</title>
-              <rect className="bar" x={x} y={y} width={BAR_WIDTH} height={barHeight} rx={4} />
-              {bucket.count > 0 ? (
-                <text className="bar-value" x={x + BAR_WIDTH / 2} y={y - 14} textAnchor="middle">
-                  <tspan x={x + BAR_WIDTH / 2} dy="0">
+              <rect className="bar" x={x} y={y} width={barWidth} height={barHeight} rx={compact ? 1 : 4} />
+              {showValues && bucket.count > 0 ? (
+                <text className="bar-value" x={x + barWidth / 2} y={y - 14} textAnchor="middle">
+                  <tspan x={x + barWidth / 2} dy="0">
                     {bucket.count}
                   </tspan>
-                  <tspan x={x + BAR_WIDTH / 2} dy="12">
+                  <tspan x={x + barWidth / 2} dy="12">
                     {formatPercent(bucket.percent)}
                   </tspan>
                 </text>
               ) : null}
-              <text
-                className="bar-label"
-                x={x + BAR_WIDTH / 2}
-                y={HEIGHT - PADDING.bottom + 16}
-                textAnchor="middle"
-              >
-                {bucket.label.replace(':00', '')}
-              </text>
+              {!compact ? (
+                <text
+                  className="bar-label"
+                  x={x + barWidth / 2}
+                  y={HEIGHT - PADDING.bottom + 16}
+                  textAnchor="middle"
+                >
+                  {bucket.label.replace(':00', '')}
+                </text>
+              ) : showCompactTick ? (
+                <text
+                  className="bar-label"
+                  x={x + barWidth / 2}
+                  y={HEIGHT - PADDING.bottom + 16}
+                  textAnchor="middle"
+                >
+                  {bucket.label.split(' ')[0]}
+                </text>
+              ) : null}
             </g>
           )
         })}

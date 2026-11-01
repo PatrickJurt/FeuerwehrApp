@@ -5,6 +5,7 @@ import { BarChart } from './BarChart.tsx'
 
 const OPTIONS: { value: DistributionMode; label: string }[] = [
   { value: 'hour', label: 'Stunden' },
+  { value: 'weekhour', label: 'Wochenstunden' },
   { value: 'weekday', label: 'Wochentage' },
   { value: 'month', label: 'Monate' },
   { value: 'year', label: 'Jahre' },
@@ -16,6 +17,7 @@ interface DistributionToolProps {
 
 export function DistributionTool({ operations }: DistributionToolProps) {
   const [mode, setMode] = useState<DistributionMode>('hour')
+  const isWeekhour = mode === 'weekhour'
   const buckets = useMemo(() => computeDistribution(operations, mode), [operations, mode])
 
   return (
@@ -33,12 +35,16 @@ export function DistributionTool({ operations }: DistributionToolProps) {
         ))}
       </div>
       <p className="count">
-        <strong>{operations.length}</strong> Einsätze (Wert je Balken: Anzahl und Anteil in %)
+        <strong>{operations.length}</strong>{' '}
+        Einsätze
+        {isWeekhour
+          ? ' (dichte Ansicht: 168 Wochenstunden, Werte im Tooltip)'
+          : ' (Wert je Balken: Anzahl und Anteil in %)'}
       </p>
       {operations.length === 0 ? (
         <p className="empty">Keine Einsätze gefunden.</p>
       ) : (
-        <BarChart buckets={buckets} />
+        <BarChart buckets={buckets} compact={isWeekhour} showValues={!isWeekhour} />
       )}
     </section>
   )

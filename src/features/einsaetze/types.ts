@@ -3,7 +3,7 @@ export interface Operation {
   description: string
 }
 
-export type DistributionMode = 'hour' | 'weekday' | 'month' | 'year'
+export type DistributionMode = 'hour' | 'weekday' | 'month' | 'year' | 'weekhour'
 
 export interface DistributionBucket {
   label: string

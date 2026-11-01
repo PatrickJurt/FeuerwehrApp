@@ -63,4 +63,16 @@ describe('computeDistribution', () => {
     expect(computeDistribution([], 'year')).toEqual([])
     expect(computeDistribution([], 'month')[0].percent).toBe(0)
   })
+
+  it('builds 168 weekhour buckets and assigns counts by weekday/hour', () => {
+    const buckets = computeDistribution(operations, 'weekhour')
+    expect(buckets).toHaveLength(168)
+    expect(buckets[111].label).toBe('Fr 15')
+    expect(buckets[111].count).toBe(1)
+    expect(buckets[121].label).toBe('Sa 01')
+    expect(buckets[121].count).toBe(1)
+    expect(buckets[136].label).toBe('Sa 16')
+    expect(buckets[136].count).toBe(1)
+    expect(buckets.reduce((sum, bucket) => sum + bucket.count, 0)).toBe(3)
+  })
 })

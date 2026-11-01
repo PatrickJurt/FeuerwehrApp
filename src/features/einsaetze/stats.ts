@@ -17,6 +17,10 @@ export function computeDistribution(
       labels = Array.from({ length: 24 }, (_, h) => `${pad(h)}:00`)
       indexOf = (d) => d.getHours()
       break
+    case 'weekhour':
+      labels = WEEKDAYS.flatMap((day) => Array.from({ length: 24 }, (_, h) => `${day} ${pad(h)}`))
+      indexOf = (d) => ((d.getDay() + 6) % 7) * 24 + d.getHours()
+      break
     case 'weekday':
       labels = WEEKDAYS
       indexOf = (d) => (d.getDay() + 6) % 7
