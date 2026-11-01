@@ -5,6 +5,10 @@
   --muted: #6b7280;
   --accent: #d62828;
   --border: #e3e5e9;
+  --alarm-low: #1d4ed8;
+  --alarm-normal: #15803d;
+  --alarm-elevated: #c2410c;
+  --alarm-high: #b91c1c;
   font-family:
     system-ui,
     -apple-system,
@@ -182,4 +186,65 @@ input {
 .bar-label {
   fill: var(--muted);
   font-size: 10px;
+}
+.alarm-controls {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+.alarm-controls .field {
+  min-width: 10rem;
+}
+.alarm-now {
+  padding: 0.6rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--card);
+  cursor: pointer;
+}
+.alarm-index {
+  margin: 1.25rem 0 0.25rem;
+  font-size: clamp(2.5rem, 6vw, 4.25rem);
+  font-weight: 800;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+.alarm-index-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+.alarm-info {
+  margin-top: 1.35rem;
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: var(--card);
+  color: var(--muted);
+  font-weight: 700;
+  line-height: 1;
+  cursor: help;
+}
+.alarm-description {
+  margin: 0 0 0.5rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+.alarm-index.is-low,
+.alarm-description.is-low {
+  color: var(--alarm-low);
+}
+.alarm-index.is-normal,
+.alarm-description.is-normal {
+  color: var(--alarm-normal);
+}
+.alarm-index.is-elevated,
+.alarm-description.is-elevated {
+  color: var(--alarm-elevated);
+}
+.alarm-index.is-high,
+.alarm-description.is-high {
+  color: var(--alarm-high);
 }

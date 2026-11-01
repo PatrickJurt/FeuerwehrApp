@@ -1,4 +1,5 @@
 import { describe, expect, it } from 'vitest'
+import { buildAlarmIndexModel, classifyAlarmIndex, computeAlarmIndexAt } from './alarmIndex.ts'
 import { filterByKeywords, filterByRange, getRange, parseKeywords } from './filters.ts'
 import { parseOperations } from './parser.ts'
 import { computeDistribution } from './stats.ts'
@@ -74,5 +75,34 @@ describe('computeDistribution', () => {
     expect(buckets[136].label).toBe('Sa 16')
     expect(buckets[136].count).toBe(1)
     expect(buckets.reduce((sum, bucket) => sum + bucket.count, 0)).toBe(3)
+  })
+})
+
+describe('alarmIndex', () => {
+  const sparse: ReturnType<typeof parseOperations>['operations'] = [
+    { date: new Date(2026, 0, 5, 10, 0), description: 'Probealarm' },
+    { date: new Date(2026, 0, 12, 10, 0), description: 'Probealarm' },
+    { date: new Date(2026, 0, 19, 10, 0), description: 'Probealarm' },
+    { date: new Date(2026, 0, 26, 10, 0), description: 'Probealarm' },
+  ]
+
+  it('returns a positive index even for unseen weekhour slots', () => {
+    const model = buildAlarmIndexModel(sparse)
+    const unseen = new Date(2026, 0, 7, 3, 30)
+    expect(computeAlarmIndexAt(model, unseen)).toBeGreaterThan(0)
+  })
+
+  it('assigns a higher index to strongly represented weekhour patterns', () => {
+    const model = buildAlarmIndexModel(sparse)
+    const frequent = new Date(2026, 0, 5, 10, 0)
+    const rare = new Date(2026, 0, 5, 18, 0)
+    expect(computeAlarmIndexAt(model, frequent)).toBeGreaterThan(computeAlarmIndexAt(model, rare))
+  })
+
+  it('classifies bands according to thresholds', () => {
+    expect(classifyAlarmIndex(0.69).band).toBe('low')
+    expect(classifyAlarmIndex(0.7).band).toBe('normal')
+    expect(classifyAlarmIndex(1.3).band).toBe('elevated')
+    expect(classifyAlarmIndex(2.0).band).toBe('high')
   })
 })
