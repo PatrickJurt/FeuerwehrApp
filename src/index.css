@@ -248,3 +248,81 @@ input {
 .alarm-description.is-high {
   color: var(--alarm-high);
 }
+.keyword-filter {
+  gap: 0.75rem;
+}
+.keyword-input-row {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.keyword-input-row input {
+  flex: 1;
+}
+.keyword-add {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.75rem;
+  height: 1.75rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  font-weight: 700;
+  line-height: 1;
+  padding: 0;
+  padding-bottom: 0.1rem;
+  cursor: pointer;
+}
+.keyword-add:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.keyword-add-plus {
+  color: #166534;
+  border-color: #15803d;
+}
+.keyword-add-minus {
+  color: #b91c1c;
+  border-color: #dc2626;
+}
+.keyword-rules {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0;
+  padding: 0;
+}
+.keyword-rules li {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+.keyword-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  border: 1px solid var(--border);
+}
+.keyword-pill.is-include {
+  color: #166534;
+  border-color: #15803d;
+}
+.keyword-pill.is-exclude {
+  color: #b91c1c;
+  border-color: #dc2626;
+}
+.keyword-remove {
+  border: 1px solid var(--border);
+  background: var(--card);
+  border-radius: 999px;
+  width: 1.35rem;
+  height: 1.35rem;
+  line-height: 1;
+  padding: 0;
+  cursor: pointer;
+  color: var(--muted);
+}

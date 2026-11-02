@@ -4,7 +4,7 @@ import { DistributionTool } from './components/DistributionTool.tsx'
 import { KeywordFilter } from './components/KeywordFilter.tsx'
 import { TimeframeTool } from './components/TimeframeTool.tsx'
 import { operations } from './data.ts'
-import { filterByKeywords, parseKeywords } from './filters.ts'
+import { filterByKeywords, normalizeKeyword, type KeywordRule, type KeywordRuleMode } from './filters.ts'
 
 type ToolId = 'timeframe' | 'distribution' | 'alarmindex'
 
@@ -15,18 +15,29 @@ const TOOLS: { id: ToolId; label: string }[] = [
 ]
 
 export function EinsaetzeSection() {
-  const [keywordInput, setKeywordInput] = useState('')
+  const [keywordRules, setKeywordRules] = useState<KeywordRule[]>([])
   const [tool, setTool] = useState<ToolId>('timeframe')
 
-  const filtered = useMemo(
-    () => filterByKeywords(operations, parseKeywords(keywordInput)),
-    [keywordInput],
-  )
+  function addKeywordRule(keywordInput: string, mode: KeywordRuleMode): void {
+    const keyword = normalizeKeyword(keywordInput)
+    if (!keyword) return
+    setKeywordRules((rules) => [...rules, { keyword, mode }])
+  }
+
+  function removeKeywordRule(index: number): void {
+    setKeywordRules((rules) => rules.filter((_, i) => i !== index))
+  }
+
+  const filtered = useMemo(() => filterByKeywords(operations, keywordRules), [keywordRules])
 
   return (
     <div className="section">
       <h1>Einsätze</h1>
-      <KeywordFilter value={keywordInput} onChange={setKeywordInput} />
+      <KeywordFilter
+        rules={keywordRules}
+        onAddRule={addKeywordRule}
+        onRemoveRule={removeKeywordRule}
+      />
       <div className="tabs" role="tablist">
         {TOOLS.map((t) => (
           <button

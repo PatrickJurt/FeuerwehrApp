@@ -1,25 +1,42 @@
 import type { Operation } from './types.ts'
 
 export type Timeframe = '1m' | '3m' | '6m' | '1y' | 'all' | 'custom'
+export type KeywordRuleMode = 'include' | 'exclude'
+
+export interface KeywordRule {
+  keyword: string
+  mode: KeywordRuleMode
+}
 
 export interface DateRange {
   from: Date | null
   to: Date | null
 }
 
-export function parseKeywords(input: string): string[] {
-  return input
-    .split(',')
-    .map((keyword) => keyword.trim().toLowerCase())
-    .filter(Boolean)
+export function normalizeKeyword(input: string): string {
+  return input.trim().toLowerCase()
 }
 
-/** Keeps operations whose description contains at least one keyword (case-insensitive). */
-export function filterByKeywords(operations: Operation[], keywords: string[]): Operation[] {
-  if (keywords.length === 0) return operations
+/**
+ * Applies ordered include/exclude rules to operation descriptions.
+ * Later matching rules override earlier matching rules.
+ */
+export function filterByKeywords(operations: Operation[], rules: KeywordRule[]): Operation[] {
+  if (rules.length === 0) return operations
+
+  const hasInclude = rules.some((rule) => rule.mode === 'include')
+
   return operations.filter((op) => {
     const text = op.description.toLowerCase()
-    return keywords.some((keyword) => text.includes(keyword))
+    let keep = !hasInclude
+
+    for (const rule of rules) {
+      if (text.includes(rule.keyword)) {
+        keep = rule.mode === 'include'
+      }
+    }
+
+    return keep
   })
 }
 

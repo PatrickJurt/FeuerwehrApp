@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import { buildAlarmIndexModel, classifyAlarmIndex, computeAlarmIndexAt } from './alarmIndex.ts'
-import { filterByKeywords, filterByRange, getRange, parseKeywords } from './filters.ts'
+import { filterByKeywords, filterByRange, getRange, normalizeKeyword } from './filters.ts'
 import { parseOperations } from './parser.ts'
 import { computeDistribution } from './stats.ts'
 
@@ -25,10 +25,33 @@ describe('filters', () => {
   const { operations } = parseOperations(SAMPLE)
   const noCustom = { from: null, to: null }
 
-  it('filters by keywords case-insensitively (any match)', () => {
-    expect(filterByKeywords(operations, parseKeywords('bma, hilfe'))).toHaveLength(2)
+  it('normalizes keyword input', () => {
+    expect(normalizeKeyword('  BMA  ')).toBe('bma')
+  })
+
+  it('filters by ordered include/exclude keyword rules', () => {
+    expect(
+      filterByKeywords(operations, [
+        { keyword: 'bma', mode: 'include' },
+        { keyword: 'hilfe', mode: 'include' },
+      ]),
+    ).toHaveLength(2)
     expect(filterByKeywords(operations, [])).toHaveLength(3)
-    expect(filterByKeywords(operations, ['brand'])).toHaveLength(0)
+    expect(filterByKeywords(operations, [{ keyword: 'brand', mode: 'include' }])).toHaveLength(0)
+  })
+
+  it('applies later matching rules with higher priority', () => {
+    const custom = [
+      { date: new Date(2026, 0, 1, 12, 0), description: 'Fahrzeugbrand Einsatz' },
+      { date: new Date(2026, 0, 1, 13, 0), description: 'Brandmeldeanlage' },
+    ]
+    const rules = [
+      { keyword: 'brand', mode: 'include' as const },
+      { keyword: 'fahrzeug', mode: 'exclude' as const },
+    ]
+    const result = filterByKeywords(custom, rules)
+    expect(result).toHaveLength(1)
+    expect(result[0].description).toBe('Brandmeldeanlage')
   })
 
   it('filters by timeframe', () => {
