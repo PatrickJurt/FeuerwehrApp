@@ -16,8 +16,8 @@ const alarmIndexHelpText =
   'Schwellen:\n' +
   '< 0,7: unterdurchschnittlich\n' +
   '0,7 bis < 1,3: durchschnittlich\n' +
-  '1,3 bis < 2,0: erhoeht\n' +
-  '>= 2,0: deutlich erhoeht'
+  '1,3 bis < 2,0: erhöht\n' +
+  '>= 2,0: deutlich erhöht'
 
 interface AlarmIndexToolProps {
   operations: Operation[]
