@@ -1,17 +1,15 @@
 import { useMemo, useState } from 'react'
-import { AlarmIndexTool } from './components/AlarmIndexTool.tsx'
 import { DistributionTool } from './components/DistributionTool.tsx'
 import { KeywordFilter } from './components/KeywordFilter.tsx'
 import { TimeframeTool } from './components/TimeframeTool.tsx'
 import { operations } from './data.ts'
 import { filterByKeywords, normalizeKeyword, type KeywordRule, type KeywordRuleMode } from './filters.ts'
 
-type ToolId = 'timeframe' | 'distribution' | 'alarmindex'
+type ToolId = 'timeframe' | 'distribution'
 
 const TOOLS: { id: ToolId; label: string }[] = [
   { id: 'timeframe', label: 'Zeitraum' },
   { id: 'distribution', label: 'Verteilung' },
-  { id: 'alarmindex', label: 'Alarmindex' },
 ]
 
 export function EinsaetzeSection() {
@@ -53,10 +51,8 @@ export function EinsaetzeSection() {
       </div>
       {tool === 'timeframe' ? (
         <TimeframeTool operations={filtered} />
-      ) : tool === 'distribution' ? (
-        <DistributionTool operations={filtered} />
       ) : (
-        <AlarmIndexTool operations={filtered} />
+        <DistributionTool operations={filtered} />
       )}
     </div>
   )

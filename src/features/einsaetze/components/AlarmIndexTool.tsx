@@ -48,7 +48,7 @@ export function AlarmIndexTool({ operations }: AlarmIndexToolProps) {
   }
 
   return (
-    <section className="card">
+    <section className="card alarm-index-card">
       <div className="alarm-controls">
         <label className="field">
           <span className="field-label">Datum</span>

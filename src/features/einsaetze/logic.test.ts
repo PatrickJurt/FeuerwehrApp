@@ -1,4 +1,5 @@
 import { describe, expect, it } from 'vitest'
+import { sections } from '../../sections.ts'
 import { buildAlarmIndexModel, classifyAlarmIndex, computeAlarmIndexAt } from './alarmIndex.ts'
 import { filterByKeywords, filterByRange, getRange, normalizeKeyword } from './filters.ts'
 import { parseOperations } from './parser.ts'
@@ -98,6 +99,13 @@ describe('computeDistribution', () => {
     expect(buckets[136].label).toBe('Sa 16')
     expect(buckets[136].count).toBe(1)
     expect(buckets.reduce((sum, bucket) => sum + bucket.count, 0)).toBe(3)
+  })
+})
+
+describe('sections', () => {
+  it('exposes the alarm index as an independent app section', () => {
+    expect(sections.map((section) => section.id)).toContain('alarmindex')
+    expect(sections.some((section) => section.id === 'einsaetze' && section.title === 'Einsätze')).toBe(true)
   })
 })
 

@@ -1,4 +1,5 @@
 import type { ComponentType } from 'react'
+import { AlarmIndexSection } from './features/alarmindex/AlarmIndexSection.tsx'
 import { EinsaetzeSection } from './features/einsaetze/EinsaetzeSection.tsx'
 
 export interface Section {
@@ -16,5 +17,12 @@ export const sections: Section[] = [
     description: 'Statistiken zu den Einsätzen der Feuerwehr',
     icon: '🚒',
     component: EinsaetzeSection,
+  },
+  {
+    id: 'alarmindex',
+    title: 'Alarmindex',
+    description: 'Zeitpunktbezogene Einschätzung der Einsatzwahrscheinlichkeit',
+    icon: '📈',
+    component: AlarmIndexSection,
   },
 ]
