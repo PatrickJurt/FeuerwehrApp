@@ -227,6 +227,69 @@ input {
   align-items: flex-start;
   gap: 0.5rem;
 }
+.alarm-trend {
+  width: min(100%, 980px);
+  margin-top: 0.25rem;
+}
+.alarm-trend svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: linear-gradient(180deg, rgb(0 0 0 / 0.02), rgb(0 0 0 / 0.01));
+  border: 1px solid var(--border);
+  border-radius: 12px;
+}
+.alarm-trend-area {
+  fill: rgba(214, 40, 40, 0.12);
+}
+.alarm-trend-line {
+  fill: none;
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.alarm-trend-line.is-low {
+  stroke: var(--alarm-low);
+}
+.alarm-trend-line.is-normal {
+  stroke: var(--alarm-normal);
+}
+.alarm-trend-line.is-elevated {
+  stroke: var(--alarm-elevated);
+}
+.alarm-trend-line.is-high {
+  stroke: var(--alarm-high);
+}
+.alarm-trend-axis {
+  stroke: var(--border);
+  stroke-width: 1;
+}
+.alarm-trend-grid {
+  stroke: var(--border);
+  stroke-width: 1;
+  stroke-dasharray: 4 4;
+}
+.alarm-trend-point {
+  stroke: var(--card);
+  stroke-width: 2;
+}
+.alarm-trend-point.is-low {
+  fill: var(--alarm-low);
+}
+.alarm-trend-point.is-normal {
+  fill: var(--alarm-normal);
+}
+.alarm-trend-point.is-elevated {
+  fill: var(--alarm-elevated);
+}
+.alarm-trend-point.is-high {
+  fill: var(--alarm-high);
+}
+.alarm-trend-label {
+  fill: var(--muted);
+  font-size: 15px;
+  font-weight: 700;
+}
 .alarm-info {
   margin-top: 1.35rem;
   width: 1.6rem;
