@@ -23,9 +23,35 @@ const HOUR_IN_MS = 60 * 60 * 1000
 const CHART_WIDTH = 1100
 const CHART_HEIGHT = 280
 const CHART_PADDING = { top: 22, right: 30, bottom: 46, left: 42 }
+const SEGMENT_COLORS = {
+  low: '#1d4ed8',
+  normal: '#15803d',
+  elevated: '#c2410c',
+  high: '#b91c1c',
+} as const
 
 interface AlarmIndexToolProps {
   operations: Operation[]
+}
+
+function getBandForValue(value: number): 'low' | 'normal' | 'elevated' | 'high' {
+  if (value < 0.7) return 'low'
+  if (value < 1.3) return 'normal'
+  if (value < 2.0) return 'elevated'
+  return 'high'
+}
+
+export function getTrendThresholdCrossings(startValue: number, endValue: number, thresholds = [0.7, 1.3, 2.0]) {
+  const min = Math.min(startValue, endValue)
+  const max = Math.max(startValue, endValue)
+  const crossings = thresholds.filter((threshold) => threshold > min && threshold < max)
+
+  return startValue <= endValue ? crossings.sort((a, b) => a - b) : crossings.sort((a, b) => b - a)
+}
+
+function getBandAfterThreshold(threshold: number, direction: 'up' | 'down') {
+  const epsilon = 1e-9
+  return getBandForValue(direction === 'up' ? threshold + epsilon : threshold - epsilon)
 }
 
 function buildTrendPoints(model: ReturnType<typeof buildAlarmIndexModel>, target: Date) {
@@ -79,6 +105,7 @@ export function AlarmIndexTool({ operations }: AlarmIndexToolProps) {
   )
   const selectedTrendIndex = trendPoints.findIndex((point) => point.offsetHours === 0)
   const hoveredPoint = hoveredIndex === null ? null : trendPoints[hoveredIndex]
+  const thresholdValues = [0.7, 1.3, 2.0]
 
   function handlePointHover(index: number, event: React.MouseEvent<SVGCircleElement>): void {
     const svg = event.currentTarget.ownerSVGElement
@@ -107,6 +134,57 @@ export function AlarmIndexTool({ operations }: AlarmIndexToolProps) {
         return `${index === 0 ? 'M' : 'L'} ${x} ${y}`
       })
       .join(' ')
+  }, [trendMax, trendMin, trendPoints])
+
+  const trendSegments = useMemo(() => {
+    const segments: { d: string; band: 'low' | 'normal' | 'elevated' | 'high' }[] = []
+
+    for (let index = 0; index < trendPoints.length - 1; index += 1) {
+      const previous = trendPoints[index]
+      const point = trendPoints[index + 1]
+      const x1 = CHART_PADDING.left + ((CHART_WIDTH - CHART_PADDING.left - CHART_PADDING.right) * index) / (trendPoints.length - 1)
+      const x2 = CHART_PADDING.left + ((CHART_WIDTH - CHART_PADDING.left - CHART_PADDING.right) * (index + 1)) / (trendPoints.length - 1)
+      const y1 =
+        CHART_PADDING.top +
+        (CHART_HEIGHT - CHART_PADDING.top - CHART_PADDING.bottom) -
+        ((previous.value - trendMin) / Math.max(0.0001, trendMax - trendMin)) *
+          (CHART_HEIGHT - CHART_PADDING.top - CHART_PADDING.bottom)
+      const y2 =
+        CHART_PADDING.top +
+        (CHART_HEIGHT - CHART_PADDING.top - CHART_PADDING.bottom) -
+        ((point.value - trendMin) / Math.max(0.0001, trendMax - trendMin)) *
+          (CHART_HEIGHT - CHART_PADDING.top - CHART_PADDING.bottom)
+
+      let currentBand = getBandForValue(previous.value)
+      let currentX = x1
+      let currentY = y1
+      const valueDelta = point.value - previous.value
+      const direction = valueDelta >= 0 ? 'up' : 'down'
+      const crossings = getTrendThresholdCrossings(previous.value, point.value, thresholdValues)
+
+      for (const threshold of crossings) {
+        const ratio = valueDelta === 0 ? 0 : (threshold - previous.value) / valueDelta
+        const x = x1 + (x2 - x1) * ratio
+        const y = y1 + (y2 - y1) * ratio
+        const nextBand = getBandAfterThreshold(threshold, direction)
+
+        segments.push({
+          d: `M ${currentX} ${currentY} L ${x} ${y}`,
+          band: currentBand,
+        })
+
+        currentBand = nextBand
+        currentX = x
+        currentY = y
+      }
+
+      segments.push({
+        d: `M ${currentX} ${currentY} L ${x2} ${y2}`,
+        band: currentBand,
+      })
+    }
+
+    return segments
   }, [trendMax, trendMin, trendPoints])
 
   function handleNow(): void {
@@ -208,7 +286,17 @@ export function AlarmIndexTool({ operations }: AlarmIndexToolProps) {
             d={`${trendPath} L ${CHART_WIDTH - CHART_PADDING.right} ${CHART_HEIGHT - CHART_PADDING.bottom} L ${CHART_PADDING.left} ${CHART_HEIGHT - CHART_PADDING.bottom} Z`}
             className="alarm-trend-area"
           />
-          <path d={trendPath} className={`alarm-trend-line is-${classification.band}`} />
+          {trendSegments.map((segment, index) => (
+            <path
+              key={`segment-${index}`}
+              d={segment.d}
+              stroke={SEGMENT_COLORS[segment.band]}
+              strokeWidth={3}
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              fill="none"
+            />
+          ))}
           {trendPoints.map((point, index) => {
             const x = CHART_PADDING.left + ((CHART_WIDTH - CHART_PADDING.left - CHART_PADDING.right) * index) / (trendPoints.length - 1)
             const y =

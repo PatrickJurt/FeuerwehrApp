@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import { sections } from '../../sections.ts'
+import { getTrendThresholdCrossings } from './components/AlarmIndexTool.tsx'
 import { buildAlarmIndexModel, classifyAlarmIndex, computeAlarmIndexAt } from './alarmIndex.ts'
 import { filterByKeywords, filterByRange, getRange, normalizeKeyword } from './filters.ts'
 import { parseOperations } from './parser.ts'
@@ -135,5 +136,10 @@ describe('alarmIndex', () => {
     expect(classifyAlarmIndex(0.7).band).toBe('normal')
     expect(classifyAlarmIndex(1.3).band).toBe('elevated')
     expect(classifyAlarmIndex(2.0).band).toBe('high')
+  })
+
+  it('orders threshold crossings by the direction of the line', () => {
+    expect(getTrendThresholdCrossings(0.6, 1.9)).toEqual([0.7, 1.3])
+    expect(getTrendThresholdCrossings(1.9, 0.6)).toEqual([1.3, 0.7])
   })
 })
