@@ -55,6 +55,8 @@ export function AlarmIndexTool({ operations }: AlarmIndexToolProps) {
       time: toInputTime(now),
     }
   })
+  const [hoveredIndex, setHoveredIndex] = useState<number | null>(null)
+  const [hoveredPosition, setHoveredPosition] = useState<{ x: number; y: number } | null>(null)
 
   const model = useMemo(() => buildAlarmIndexModel(operations), [operations])
 
@@ -76,6 +78,19 @@ export function AlarmIndexTool({ operations }: AlarmIndexToolProps) {
     [trendPoints],
   )
   const selectedTrendIndex = trendPoints.findIndex((point) => point.offsetHours === 0)
+  const hoveredPoint = hoveredIndex === null ? null : trendPoints[hoveredIndex]
+
+  function handlePointHover(index: number, event: React.MouseEvent<SVGCircleElement>): void {
+    const svg = event.currentTarget.ownerSVGElement
+    if (!svg) return
+
+    const rect = svg.getBoundingClientRect()
+    const x = Math.min(Math.max(event.clientX - rect.left, 10), rect.width - 10)
+    const y = Math.min(Math.max(event.clientY - rect.top, 10), rect.height - 10)
+
+    setHoveredIndex(index)
+    setHoveredPosition({ x, y })
+  }
 
   const trendPath = useMemo(() => {
     const plotWidth = CHART_WIDTH - CHART_PADDING.left - CHART_PADDING.right
@@ -136,6 +151,18 @@ export function AlarmIndexTool({ operations }: AlarmIndexToolProps) {
       </div>
       <p className={`alarm-description is-${classification.band}`}>{classification.text}</p>
       <div className="alarm-trend" aria-label="Alarmindex-Verlauf in den letzten und nächsten fünf Stunden">
+        {hoveredPoint && hoveredPosition ? (
+          <div
+            className="alarm-tooltip"
+            style={{
+              left: `${hoveredPosition.x}px`,
+              top: `${hoveredPosition.y}px`,
+            }}
+          >
+            <strong>{hoveredPoint.date.toLocaleTimeString('de-DE', { hour: '2-digit' })} Uhr</strong>
+            <span>{indexFormat.format(hoveredPoint.value)}</span>
+          </div>
+        ) : null}
         <svg viewBox={`0 0 ${CHART_WIDTH} ${CHART_HEIGHT}`} width="100%" height={CHART_HEIGHT}>
           <line
             x1={CHART_PADDING.left}
@@ -190,6 +217,7 @@ export function AlarmIndexTool({ operations }: AlarmIndexToolProps) {
               ((point.value - trendMin) / Math.max(0.0001, trendMax - trendMin)) *
                 (CHART_HEIGHT - CHART_PADDING.top - CHART_PADDING.bottom)
             const isSelected = index === selectedTrendIndex
+            const isHovered = index === hoveredIndex
             return (
               <g key={`${point.label}-${index}`}>
                 <line
@@ -199,9 +227,49 @@ export function AlarmIndexTool({ operations }: AlarmIndexToolProps) {
                   y2={CHART_HEIGHT - CHART_PADDING.bottom + 6}
                   className="alarm-trend-axis"
                 />
-                {isSelected ? (
-                  <circle cx={x} cy={y} r={5} className={`alarm-trend-point is-${classification.band}`} />
-                ) : null}
+                {(isSelected || isHovered) ? (
+                  <>
+                    <circle
+                      cx={x}
+                      cy={y}
+                      r={isHovered ? 10 : 8}
+                      className={`alarm-trend-point is-${classification.band}`}
+                    />
+                    <circle
+                      cx={x}
+                      cy={y}
+                      r={14}
+                      className="alarm-trend-hit"
+                      onMouseMove={(event) => handlePointHover(index, event)}
+                      onMouseEnter={(event) => handlePointHover(index, event)}
+                      onMouseLeave={() => {
+                        setHoveredIndex(null)
+                        setHoveredPosition(null)
+                      }}
+                    />
+                  </>
+                ) : (
+                  <>
+                    <circle
+                      cx={x}
+                      cy={y}
+                      r={4}
+                      className="alarm-trend-point-dim"
+                    />
+                    <circle
+                      cx={x}
+                      cy={y}
+                      r={14}
+                      className="alarm-trend-hit"
+                      onMouseMove={(event) => handlePointHover(index, event)}
+                      onMouseEnter={(event) => handlePointHover(index, event)}
+                      onMouseLeave={() => {
+                        setHoveredIndex(null)
+                        setHoveredPosition(null)
+                      }}
+                    />
+                  </>
+                )}
               </g>
             )
           })}

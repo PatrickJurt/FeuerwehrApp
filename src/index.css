@@ -228,8 +228,10 @@ input {
   gap: 0.5rem;
 }
 .alarm-trend {
+  position: relative;
   width: min(100%, 980px);
   margin-top: 0.25rem;
+  overflow: hidden;
 }
 .alarm-trend svg {
   display: block;
@@ -272,6 +274,17 @@ input {
 .alarm-trend-point {
   stroke: var(--card);
   stroke-width: 2;
+  cursor: pointer;
+}
+.alarm-trend-point-dim {
+  fill: rgba(108, 117, 125, 0.7);
+  cursor: pointer;
+}
+.alarm-trend-hit {
+  fill: transparent;
+  stroke: transparent;
+  pointer-events: all;
+  cursor: pointer;
 }
 .alarm-trend-point.is-low {
   fill: var(--alarm-low);
@@ -289,6 +302,22 @@ input {
   fill: var(--muted);
   font-size: 15px;
   font-weight: 700;
+}
+.alarm-tooltip {
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  padding: 0.45rem 0.6rem;
+  border: 1px solid var(--border);
+  border-radius: 9px;
+  background: rgb(0 0 0 / 0.82);
+  color: #fff;
+  font-size: 0.78rem;
+  transform: translate(12px, -12px);
+  pointer-events: none;
+  white-space: nowrap;
 }
 .alarm-info {
   margin-top: 1.35rem;
